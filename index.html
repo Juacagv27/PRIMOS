@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+ 
+
+<html lang="en">
+    
+<head>
+<title>Comprobar si el número es primo</title>
+
+</head>
+<body>
+    <h1><b>Comprobar si el número es primo</b></h1>
+
+<script>
+
+let numero = parseInt(prompt('ingresa número: '));
+let divisor = 1, contador = 0; 
+while(divisor <= numero){
+    if(numero % divisor == 0){
+        contador++;
+    }
+    divisor++;
+
+}
+contador == 2 ? document.write("El número es primo") : document.write("El número no es primo");
+
+
+
+</script>
+
+
+
+</body>
+</html>:
+
